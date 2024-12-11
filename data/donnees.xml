@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Donnees>
+    <Creatures>
+        <Creature>
+            <Name>Bigboss</Name>
+            <Health>500</Health>
+            <Speed>1.0</Speed>
+        </Creature>
+        <Creature>
+            <Name>Petit</Name>
+            <Health>100</Health>
+            <Speed>2.0</Speed>
+        </Creature>
+    </Creatures>
+    <Joueurs>
+        <joueur>
+            <Nom>John</Nom>
+            <Niveau>1</Niveau>
+        </joueur>
+    </Joueurs>
+</Donnees>
+

@@ -13,6 +13,8 @@ public static class CreatureManager
     private static float _spawnCooldown;
     private static float _spawnTime;
     private static int _padding;
+    
+
 
     public static void Init()
     {
@@ -21,6 +23,8 @@ public static class CreatureManager
         _padding = _texture.Width;
         _spawnCooldown = 2f;
         _spawnTime = _spawnCooldown;
+      
+
 
         // Calcule le padding en fonction de la taille de la texture
         _padding = _texture.Width / 2;
@@ -54,6 +58,7 @@ public static class CreatureManager
         }
         _Creatures.RemoveAll((c) => c._Health <= 0);
     }
+    
     
     public static void Draw()
     {
